@@ -1,0 +1,136 @@
+* {
+    font-family: "Comic Neue";
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #8b4a29 !important;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #000000bf;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000bf;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000bf;
+}
+
+.container-fluid {
+    color: #ffffff !important;
+}
+
+.btn-outline-success {
+    color: aqua;
+    box-shadow: -1px 1px 1px .5px #000000bf;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-warning, .btn-info {
+    margin: 20px;
+}
+
+p {
+    padding: 30px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.custom-images {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.custom-images img {
+    width: 30%;
+    border: 3px solid #8b4a29;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.funfaqs {
+    /* display: flex; */
+    text-align: justify;
+    /* font-size: 18px; */
+    list-style: none;
+    /* padding: 30px;
+    margin: 30px, 60px; */
+}
+
+
+/* @media (max-width: 650px) {
+    .funfaqs {
+        display: block;
+    }
+} */
+
+/* .funfaqs li { 
+    margin-right: 50px;
+    padding: 1em;
+    position: relative; */
+    /* text-align: justify;
+    font-size: 18px; */
+/* }  */
+
+
+.carousel {
+    width: 60%;
+    height: 100%;
+    border: 3px solid #8b4a29;
+    border-radius: 8px;
+    margin: 50px 100px 50px 275px;
+    overflow: hidden;
+}
+
+@media (max-width: 650px) {
+    .carousel {
+        margin: auto;
+    }
+}
+
+h2 {
+    font-size: 25px;
+    text-shadow: 2px 2px 2px rgba(139,74,41,0.6);
+}
+
+.funfaqs2 {
+    /* color: #000000; */
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(139,74,41,0.6);
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000bf;
+    text-align: center;
+    background-color: #8b4a29;
+}
+
+.fa-linkedin, .fa-youtube, .fa-twitter {
+    margin-left: 10px;
+    border: .01px solid #000000bf;
+    padding: 2px;
+    box-shadow: 3px 3px 3px 0px #000000bf;
+}
+
+.card {
+    border: 3px solid #8b4a29;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 600px;
+}
